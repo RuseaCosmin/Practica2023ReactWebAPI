@@ -10,7 +10,6 @@ function PostCategory() {
         fetch('api/categories/insert', requestOptions)
             .then(response => console.log(response))
             
-            //.then(data => this.setState({ postId: data.id }));
     };
     document.body.style.backgroundColor = "#080710";
     return (

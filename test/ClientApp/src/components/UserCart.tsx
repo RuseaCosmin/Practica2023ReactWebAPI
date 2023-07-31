@@ -18,41 +18,7 @@ function UserCart({ items }: Props) {
     const [cart, setCart] = useState([]);
     const [loading, setLoading] = useState(true);
     const [tot, setTot] = useState(0);
-    /*function checkExpirationOfToken() {
-        const token = localStorage.getItem("token");
-        console.log(token);
-        const decodedToken = jwt_decode(token);
-        const currentDate = new Date();
-        if (decodedToken.exp * 1000 < currentDate.getTime()) {
-            console.log("Token expired.");
-            const requestOptions = {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ username: JSON.parse(localStorage.getItem("user")).username, password: JSON.parse(localStorage.getItem("user")).password, role: userCookies.user["role"], token: JSON.parse(localStorage.getItem("user")).role, refToken: localStorage.getItem("refToken"), refTokenExp: localStorage.getItem("refTokenExp") })
-            };
-            fetch('api/users/refresh', requestOptions)
-                .then(response => {
-                    if (response.ok) {
-                        return response.json();
-                    }
-                    else {
-
-                        throw new Error("Refresh Failed");//send to login
-                    }
-                })
-                .then(data => {
-                    setCookie("token", { token: data.token, refToken: data.refToken, refTokenExp: data.refTokenExp }, { path: "/" });
-                    console.log(data);
-                    localStorage.setItem("user", JSON.stringify({ username: user.username, password: user.password, role: user.role }));
-                }
-                )
-                .catch(error => console.log(error));
-            return false
-        } else {
-            console.log("Valid token");
-            return true;
-        }
-    }*/
+    
     async function populateCart(username) {
         //checkExpirationOfToken();
         const response = await fetch('api/carts/' + username, {

@@ -41,7 +41,7 @@ function App() {
                 localStorage.setItem("refTokenExpStr", data.refTokenExpStr);
                 console.log(user);
                 setCookie("user", user, { path: "/" });
-                localStorage.setItem("user", JSON.stringify({ username: user.username, password: user.password, role: user.role }));
+                localStorage.setItem("user", JSON.stringify({ username: user.username, password: "", role: user.role }));
             }
             )
             .catch(error => console.log(error));

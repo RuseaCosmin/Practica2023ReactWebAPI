@@ -102,49 +102,7 @@ function AdminCategoryTable({ items }: Props) {
                     checkboxSelection
                 />
             </div>
-            {/*            <TableContainer component={Paper}>
-                <Table sx={{ minWidth: 650 }} aria-label="simple table">
-                    <TableHead>
-                        <TableRow>
-                            <TableCell>Category ID</TableCell>
-                            <TableCell align="right">Category Name</TableCell>
-                            <TableCell align="right">Actions</TableCell>
-
-                        </TableRow>
-                    </TableHead>
-                    <TableBody>
-                        {items.map((row) => (
-                            <TableRow
-                                key={row.name}
-                                sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-                            >
-                                <TableCell component="th" scope="row">
-                                    {row.categoryId}
-                                </TableCell>
-                                <TableCell align="right">{row.name}</TableCell>
-                                <TableCell align="right">d</TableCell>
-
-                            </TableRow>
-                        ))}
-                    </TableBody>
-                </Table>
-            </TableContainer>*/}
-            {/*<table className="table">    
-
-                <tr>
-                    <th>Category ID</th>
-                    <th>Category Name</th>
-                    <th>Actions</th>
-                </tr>
-                {items.map((item, index) => (
-                    <tr>
-                        <td>{item.categoryId}</td>
-                        <td>{item.name}</td>
-                        <td>{Actions(item.categoryId)}</td>
-                    </tr>
-                        
-                    ))}
-        </table>*/}
+            
         </>
     );
 }

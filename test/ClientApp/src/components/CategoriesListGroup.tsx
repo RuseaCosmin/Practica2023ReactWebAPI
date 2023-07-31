@@ -12,10 +12,7 @@ interface Props {
     onSelectItem: (item) => void;
 }
 function CategoriesListGroup({items, count, heading, onSelectItem}: Props) {
-    //const items = ["A", "B", "C"];
-    /* const message = items.length === 0 ? <p>No Items Found</p> : null;
-     const getMessage = () => { return items.length === 0 ? <p>No Items Found</p> : null };
-    */
+
     
     const [selectedIndex, setSelectedIndex] = useState(-1);
     const [paragraph, setParagraph] = useState("");

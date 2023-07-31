@@ -27,8 +27,6 @@ function NavMenu() {
     function logOut() {
         
         document.cookie.split(";").forEach(function (c) { document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/"); });
-        // eslint-disable-next-line no-restricted-globals
-        //location.reload();
         localStorage.clear();
         navigate('/', { refresh: true });   
         // eslint-disable-next-line no-restricted-globals
@@ -38,28 +36,7 @@ function NavMenu() {
  
       return (
         
-/*      <header>
-            <Navbar className="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3" >
-                <NavbarBrand className="text-light" tag={Link} to="/">Test Project</NavbarBrand>
-          <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
-          <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
-            <ul className="navbar-nav flex-grow">
-              <NavItem>
-                <NavLink tag={Link} className="tra text-light" to="/">Home</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink tag={Link} className="tra text-light" to="/counter">Counter</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink tag={Link} className="tra text-light" to="/fetch-data">View Categories</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink tag={Link} className="tra text-light" to="/post-category">Add Category</NavLink>
-              </NavItem>
-            </ul>
-          </Collapse>
-        </Navbar>
-      </header>*/
+
         <div>
             <Nav className="col-md-10 d-md-block bg-light ">
                   <div className="sidebar">
