@@ -1,0 +1,15 @@
+C:\Users\As\source\repos\test.Data\bin\Debug\net7.0\Practica2023React.Data.deps.json
+C:\Users\As\source\repos\test.Data\bin\Debug\net7.0\Practica2023React.Data.dll
+C:\Users\As\source\repos\test.Data\bin\Debug\net7.0\Practica2023React.Data.pdb
+C:\Users\As\source\repos\test.Data\bin\Debug\net7.0\Practica2023React.Business.dll
+C:\Users\As\source\repos\test.Data\bin\Debug\net7.0\Practica2023React.Business.pdb
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\Practica2023React.Data.csproj.AssemblyReference.cache
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\Practica2023React.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\Practica2023React.Data.AssemblyInfoInputs.cache
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\Practica2023React.Data.AssemblyInfo.cs
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\Practica2023React.Data.csproj.CoreCompileInputs.cache
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\Practica2023React.Data.csproj.CopyComplete
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\Practica2023React.Data.dll
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\refint\Practica2023React.Data.dll
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\Practica2023React.Data.pdb
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\ref\Practica2023React.Data.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Practica2023React.Business/1.0.0": {
+        "runtime": {
+          "Practica2023React.Business.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Practica2023React.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\As\source\repos\test.Business\bin\Debug\net7.0\test.Business.deps.json
+C:\Users\As\source\repos\test.Business\bin\Debug\net7.0\test.Business.dll
+C:\Users\As\source\repos\test.Business\bin\Debug\net7.0\test.Business.pdb
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\test.Business.csproj.AssemblyReference.cache
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\test.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\test.Business.AssemblyInfoInputs.cache
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\test.Business.AssemblyInfo.cs
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\test.Business.csproj.CoreCompileInputs.cache
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\test.Business.dll
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\refint\test.Business.dll
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\test.Business.pdb
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\ref\test.Business.dll

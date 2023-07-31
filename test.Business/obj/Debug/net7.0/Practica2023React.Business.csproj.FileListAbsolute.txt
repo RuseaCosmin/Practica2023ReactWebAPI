@@ -1,0 +1,12 @@
+C:\Users\As\source\repos\test.Business\bin\Debug\net7.0\Practica2023React.Business.deps.json
+C:\Users\As\source\repos\test.Business\bin\Debug\net7.0\Practica2023React.Business.dll
+C:\Users\As\source\repos\test.Business\bin\Debug\net7.0\Practica2023React.Business.pdb
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\Practica2023React.Business.csproj.AssemblyReference.cache
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\Practica2023React.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\Practica2023React.Business.AssemblyInfoInputs.cache
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\Practica2023React.Business.AssemblyInfo.cs
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\Practica2023React.Business.csproj.CoreCompileInputs.cache
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\Practica2023React.Business.dll
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\refint\Practica2023React.Business.dll
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\Practica2023React.Business.pdb
+C:\Users\As\source\repos\test.Business\obj\Debug\net7.0\ref\Practica2023React.Business.dll
