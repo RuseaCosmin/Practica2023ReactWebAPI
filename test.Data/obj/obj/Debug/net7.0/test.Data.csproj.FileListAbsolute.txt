@@ -1,0 +1,15 @@
+C:\Users\As\source\repos\test.Data\bin\Debug\net7.0\test.Data.deps.json
+C:\Users\As\source\repos\test.Data\bin\Debug\net7.0\test.Data.dll
+C:\Users\As\source\repos\test.Data\bin\Debug\net7.0\test.Data.pdb
+C:\Users\As\source\repos\test.Data\bin\Debug\net7.0\test.Business.dll
+C:\Users\As\source\repos\test.Data\bin\Debug\net7.0\test.Business.pdb
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\test.Data.csproj.AssemblyReference.cache
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\test.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\test.Data.AssemblyInfoInputs.cache
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\test.Data.AssemblyInfo.cs
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\test.Data.csproj.CoreCompileInputs.cache
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\test.Data.csproj.CopyComplete
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\test.Data.dll
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\refint\test.Data.dll
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\test.Data.pdb
+C:\Users\As\source\repos\test.Data\obj\Debug\net7.0\ref\test.Data.dll
