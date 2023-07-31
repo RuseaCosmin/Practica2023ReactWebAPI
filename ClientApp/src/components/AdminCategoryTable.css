@@ -1,0 +1,12 @@
+﻿.page {
+    width: 1300px;
+    height: 450px;
+    overflow: auto;
+}
+
+.pageSc {
+    width: 1300px;
+    height: 310px;
+    overflow: auto;
+    text-align: center;
+}

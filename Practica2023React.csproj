@@ -20,6 +20,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.0" />
   </ItemGroup>
 
@@ -31,9 +32,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Remove="clientapp\src\App.tsx" />
+    <TypeScriptCompile Remove="ClientApp\src\components\AdminCategoryTable.tsx" />
+    <TypeScriptCompile Remove="clientapp\src\components\CartItem.tsx" />
     <TypeScriptCompile Remove="clientapp\src\components\FetchData.tsx" />
+    <TypeScriptCompile Remove="ClientApp\src\components\LoginPage.tsx" />
     <TypeScriptCompile Remove="clientapp\src\components\PostCategory.tsx" />
     <TypeScriptCompile Remove="clientapp\src\components\ProductDisplayBox.tsx" />
+    <TypeScriptCompile Remove="clientapp\src\components\ProtectedRoute.tsx" />
+    <TypeScriptCompile Remove="clientapp\src\components\UserCart.tsx" />
+    <TypeScriptCompile Remove="clientapp\src\pages\AdminPage.tsx" />
+    <TypeScriptCompile Remove="clientapp\src\pages\RegisterPage.tsx" />
   </ItemGroup>
 
   <ItemGroup>

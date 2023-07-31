@@ -12,6 +12,7 @@ namespace test.Models
             Name = entity.Name;
             Price = entity.Price;
             ProductId = entity.ProductId;
+            Image = entity.Image;
         }
         public Product ToProduct()
         {
@@ -21,5 +22,7 @@ namespace test.Models
         public string Name { get; set; }
         public decimal Price { get; set; }
         public int CategoryId { get; set; }
+        public string Image { get; set; }
+
     }
 }

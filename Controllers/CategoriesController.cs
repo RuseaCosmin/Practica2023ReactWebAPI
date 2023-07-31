@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using test.Business.Contracts;
 using test.Business.Domain;
 using test.Models;
 
 namespace test.Controllers
 {
+    [Authorize]
     [ApiController]
     public class CategoriesController : ControllerBase
     {
@@ -18,6 +20,13 @@ namespace test.Controllers
         public int GetCountProducts([FromRoute] int id)
         {
             return categoryRepository.GetNrOfProducts(id);
+        }
+        [HttpGet("api/categories")]
+        public List<CategoryModel> GetAllNoPag()
+        {
+            var categories = categoryRepository.GetAllNoPag();
+
+            return categories.Select(x => new CategoryModel(x)).ToList();
         }
         [HttpGet("api/categories/{offset?}/{limit?}")]
         public List<CategoryModel> GetAll([FromRoute]int offset = 0,[FromRoute]int limit = 100)
@@ -36,7 +45,7 @@ namespace test.Controllers
             }
             return NotFound("Entity Not Found");
         }
-
+        [Authorize(Policy = "Admin")]
         [HttpPost("api/categories/insert")]
         public string Post(CategoryBody categoryBody)
         {
@@ -44,6 +53,7 @@ namespace test.Controllers
                 return "Success";
             return "Failed";
         }
+        [Authorize(Policy = "Admin")]
         [HttpPut("api/categories/update/{id}")]
         public ActionResult Update(CategoryBody categoryBody, [FromRoute] int id)
         {
@@ -52,7 +62,7 @@ namespace test.Controllers
                 return Ok();
             return NotFound();
         }
-
+        [Authorize(Policy = "Admin")]
         [HttpDelete("api/categories/{id}")]
         public ActionResult Delete([FromRoute] int id) 
         {

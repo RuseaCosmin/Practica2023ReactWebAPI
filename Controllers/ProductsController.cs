@@ -7,6 +7,7 @@ using test.Models;
 
 namespace test.Controllers
 {
+    [Authorize]
     [ApiController]
     public class ProductsController : ControllerBase
     {
@@ -22,6 +23,7 @@ namespace test.Controllers
 
             return products.Select(x => new ProductModel(x)).ToList();
         }
+        [Authorize(Policy = "Admin")]
         [HttpPost("api/products/insert")]
         public string Post(ProductBody productBody)
         {

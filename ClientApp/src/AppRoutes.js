@@ -1,7 +1,11 @@
 import { Counter } from "./components/Counter";
-import FetchData from "./components/FetchData.tsx";
+import FetchData from "./pages/FetchData.tsx";
 import { Home } from "./components/Home";
-import  PostCategory  from "./components/PostCategory.tsx";
+import PostCategory from "./components/PostCategory.tsx";
+import LoginPage from "./pages/LoginPage.tsx";
+import RegisterPage from "./pages/RegisterPage.tsx";
+import ProtectedRoute from "./components/ProtectedRoute.tsx";
+
 
 const AppRoutes = [
   {
@@ -14,12 +18,20 @@ const AppRoutes = [
   },
   {
     path: '/fetch-data',
-    element: <FetchData />
+      element: <FetchData /> 
    },
    {
      path: '/post-category',
      element: <PostCategory />
-   }
+    },
+    {
+      path: '/login',
+      element: <LoginPage />
+    },
+    {
+        path: '/register',
+        element: <RegisterPage />
+    }
 ];
 
 export default AppRoutes;

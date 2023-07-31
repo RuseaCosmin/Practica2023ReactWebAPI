@@ -4,6 +4,7 @@
 }
 .category-side-bar {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    min-height: 100vh;
 }
 .btn-next {
     float:right;
@@ -16,6 +17,11 @@
 }
 .row-page{
     height:100%;
+    
+}
+.col-prod{
+    overflow:hidden;
+    
 }
 .page-nr{
     margin-left:auto;

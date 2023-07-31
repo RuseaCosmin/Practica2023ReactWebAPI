@@ -31,7 +31,7 @@ function CategoriesListGroup({items, count, heading, onSelectItem}: Props) {
                     <li className={selectedIndex === index ? 'list-group-item active' : 'list-group-item'}
                         key={item.categoryId}
                         onClick={() => { onSelectItem(item); setSelectedIndex(index);  setParagraph(item.description); }}>
-                        {item.name + "(" + count[index] + ")"}
+                        {item.name + " (" + count[index] + ")"}
                         <button className="btn">+</button>
                     </li>))}
             </ul>
